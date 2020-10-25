@@ -25,6 +25,7 @@
 		D9D8D42225453A7400364FCA /* special.json in Resources */ = {isa = PBXBuildFile; fileRef = D9D8D42125453A7400364FCA /* special.json */; };
 		D9D8D42525453ABC00364FCA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42425453ABC00364FCA /* Data.swift */; };
 		D9D8D42825453ACF00364FCA /* Special.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42725453ACF00364FCA /* Special.swift */; };
+		D9D8D42B25453C6300364FCA /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42A25453C6300364FCA /* CategoryRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		D9D8D42125453A7400364FCA /* special.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = special.json; sourceTree = "<group>"; };
 		D9D8D42425453ABC00364FCA /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		D9D8D42725453ACF00364FCA /* Special.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Special.swift; sourceTree = "<group>"; };
+		D9D8D42A25453C6300364FCA /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				53BB726C22E1C33C00AA7546 /* ContentView.swift */,
 				538C05262380DB91006B97C5 /* OrderDetail.swift */,
 				D9D8D419254538B100364FCA /* ShopRow.swift */,
+				D9D8D42A25453C6300364FCA /* CategoryRow.swift */,
 				53BB726E22E1C33E00AA7546 /* Assets.xcassets */,
 				53BB727322E1C33E00AA7546 /* LaunchScreen.storyboard */,
 				53BB727622E1C33E00AA7546 /* Info.plist */,
@@ -207,6 +210,7 @@
 				D9D8D4142545385C00364FCA /* Shop.swift in Sources */,
 				D9D8D42525453ABC00364FCA /* Data.swift in Sources */,
 				53BB726D22E1C33C00AA7546 /* ContentView.swift in Sources */,
+				D9D8D42B25453C6300364FCA /* CategoryRow.swift in Sources */,
 				D9D8D411254537D600364FCA /* OrderHistoryView.swift in Sources */,
 				538C05272380DB91006B97C5 /* OrderDetail.swift in Sources */,
 				53BB726822E1C33C00AA7546 /* SceneDelegate.swift in Sources */,
