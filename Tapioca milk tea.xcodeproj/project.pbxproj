@@ -26,6 +26,7 @@
 		D9D8D42525453ABC00364FCA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42425453ABC00364FCA /* Data.swift */; };
 		D9D8D42825453ACF00364FCA /* Special.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42725453ACF00364FCA /* Special.swift */; };
 		D9D8D42B25453C6300364FCA /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42A25453C6300364FCA /* CategoryRow.swift */; };
+		D9D8D42E25453F6E00364FCA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42D25453F6E00364FCA /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		D9D8D42425453ABC00364FCA /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		D9D8D42725453ACF00364FCA /* Special.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Special.swift; sourceTree = "<group>"; };
 		D9D8D42A25453C6300364FCA /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		D9D8D42D25453F6E00364FCA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		538C05252380DB5D006B97C5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D9D8D42D25453F6E00364FCA /* HomeView.swift */,
 				D9D8D410254537D600364FCA /* OrderHistoryView.swift */,
 				538C05282380DE54006B97C5 /* OrderRowView.swift */,
 				D9D8D40B254524C500364FCA /* OrderView.swift */,
@@ -119,13 +122,13 @@
 		53F05E4A22F3C5A1009E3AA8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D9D8D42725453ACF00364FCA /* Special.swift */,
 				D9D8D42125453A7400364FCA /* special.json */,
 				D9D8D4132545385C00364FCA /* Shop.swift */,
 				D9D8D4162545388A00364FCA /* shop.json */,
 				53F05E4822F3275A009E3AA8 /* orderEntity.json */,
 				53F05E4422F3228C009E3AA8 /* OrderEntity.swift */,
 				D9D8D42425453ABC00364FCA /* Data.swift */,
-				D9D8D42725453ACF00364FCA /* Special.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53BB726622E1C33C00AA7546 /* AppDelegate.swift in Sources */,
+				D9D8D42E25453F6E00364FCA /* HomeView.swift in Sources */,
 				D9D8D40C254524C500364FCA /* OrderView.swift in Sources */,
 				53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */,
 				D9D8D4142545385C00364FCA /* Shop.swift in Sources */,
