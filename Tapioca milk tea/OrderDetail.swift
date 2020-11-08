@@ -9,39 +9,44 @@ struct OrderDetail: View {
         return formatter
     }
     var body: some View {
-        VStack {
-            HStack {
-                Spacer()
-                Text("Favorite")
-                if order.favorite {
-                    Image(systemName: "heart.circle.fill")
-                        .resizable()
-                        .frame(width :30, height: 30)
-                        .foregroundColor(.pink)
-                } else {
-                    Image(systemName: "heart.circle")
-                        .resizable()
-                        .frame(width :30, height: 30)
-                        .foregroundColor(.gray)
+        if #available(iOS 14.0, *) {
+            VStack {
+                HStack {
+                    Spacer()
+                    Text("Favorite")
+                    if order.favorite {
+                        Image(systemName: "heart.circle.fill")
+                            .resizable()
+                            .frame(width :30, height: 30)
+                            .foregroundColor(.pink)
+                    } else {
+                        Image(systemName: "heart.circle")
+                            .resizable()
+                            .frame(width :30, height: 30)
+                            .foregroundColor(.gray)
+                    }
+                }.padding()
+                
+                TapiocaTeaView(iceCream: Int(order.iceCream),
+                               flavor: Int(order.flavor),
+                               nataDeCoco: order.nataDeCoco)
+                
+                Text(order.flavorName)
+                    .font(.title)
+                if order.nataDeCoco {
+                    Text("Nata de coco")
                 }
-            }.padding()
-            
-            TapiocaTeaView(iceCream: Int(order.iceCream),
-                           flavor: Int(order.flavor),
-                           nataDeCoco: order.nataDeCoco)
-            
-            Text(order.flavorName)
-                .font(.title)
-            if order.nataDeCoco {
-                Text("Nata de coco")
+                if order.iceCream != 0 {
+                    Text(order.iceCreamName)
+                }
+                Text(order.other)
+                // Text(self.dateFormatter.string(from: order.date))
+                Text("\(order.date,formatter: dateFormatter)")
+                    .font(.caption)
             }
-            if order.iceCream != 0 {
-                Text(order.iceCreamName)
-            }
-            Text(order.other)
-            // Text(self.dateFormatter.string(from: order.date))
-            Text("\(order.date,formatter: dateFormatter)")
-                .font(.caption)
+            .navigationTitle("Order detail")
+        } else {
+            // Fallback on earlier versions
         }
     }
 }

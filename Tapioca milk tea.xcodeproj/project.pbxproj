@@ -18,6 +18,7 @@
 		53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F05E4422F3228C009E3AA8 /* OrderEntity.swift */; };
 		53F05E4922F3275A009E3AA8 /* orderEntity.json in Resources */ = {isa = PBXBuildFile; fileRef = 53F05E4822F3275A009E3AA8 /* orderEntity.json */; };
 		D93D43FB254D0FC700B39C83 /* TapiocaTeaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93D43FA254D0FC700B39C83 /* TapiocaTeaView.swift */; };
+		D93D43FF254D1D4C00B39C83 /* ShopImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93D43FE254D1D4C00B39C83 /* ShopImage.swift */; };
 		D9D8D40C254524C500364FCA /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D40B254524C500364FCA /* OrderView.swift */; };
 		D9D8D411254537D600364FCA /* OrderHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D410254537D600364FCA /* OrderHistoryView.swift */; };
 		D9D8D4142545385C00364FCA /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D4132545385C00364FCA /* Shop.swift */; };
@@ -28,6 +29,7 @@
 		D9D8D42825453ACF00364FCA /* Special.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42725453ACF00364FCA /* Special.swift */; };
 		D9D8D42B25453C6300364FCA /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42A25453C6300364FCA /* CategoryRow.swift */; };
 		D9D8D42E25453F6E00364FCA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42D25453F6E00364FCA /* HomeView.swift */; };
+		D9F705F225578ABA00246CC2 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F705F125578ABA00246CC2 /* ShopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,7 @@
 		53F05E4422F3228C009E3AA8 /* OrderEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntity.swift; sourceTree = "<group>"; };
 		53F05E4822F3275A009E3AA8 /* orderEntity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = orderEntity.json; sourceTree = "<group>"; };
 		D93D43FA254D0FC700B39C83 /* TapiocaTeaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapiocaTeaView.swift; sourceTree = "<group>"; };
+		D93D43FE254D1D4C00B39C83 /* ShopImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopImage.swift; sourceTree = "<group>"; };
 		D9D8D40B254524C500364FCA /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		D9D8D410254537D600364FCA /* OrderHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryView.swift; sourceTree = "<group>"; };
 		D9D8D4132545385C00364FCA /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		D9D8D42725453ACF00364FCA /* Special.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Special.swift; sourceTree = "<group>"; };
 		D9D8D42A25453C6300364FCA /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		D9D8D42D25453F6E00364FCA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D9F705F125578ABA00246CC2 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 				538C05282380DE54006B97C5 /* OrderRowView.swift */,
 				D9D8D40B254524C500364FCA /* OrderView.swift */,
 				D93D43FA254D0FC700B39C83 /* TapiocaTeaView.swift */,
+				D9F705F125578ABA00246CC2 /* ShopView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 				538C05262380DB91006B97C5 /* OrderDetail.swift */,
 				D9D8D419254538B100364FCA /* ShopRow.swift */,
 				D9D8D42A25453C6300364FCA /* CategoryRow.swift */,
+				D93D43FE254D1D4C00B39C83 /* ShopImage.swift */,
 				53BB726E22E1C33E00AA7546 /* Assets.xcassets */,
 				53BB727322E1C33E00AA7546 /* LaunchScreen.storyboard */,
 				53BB727622E1C33E00AA7546 /* Info.plist */,
@@ -216,7 +222,9 @@
 				53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */,
 				D9D8D4142545385C00364FCA /* Shop.swift in Sources */,
 				D9D8D42525453ABC00364FCA /* Data.swift in Sources */,
+				D9F705F225578ABA00246CC2 /* ShopView.swift in Sources */,
 				53BB726D22E1C33C00AA7546 /* ContentView.swift in Sources */,
+				D93D43FF254D1D4C00B39C83 /* ShopImage.swift in Sources */,
 				D9D8D42B25453C6300364FCA /* CategoryRow.swift in Sources */,
 				D93D43FB254D0FC700B39C83 /* TapiocaTeaView.swift in Sources */,
 				D9D8D411254537D600364FCA /* OrderHistoryView.swift in Sources */,
