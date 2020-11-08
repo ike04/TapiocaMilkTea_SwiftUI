@@ -29,6 +29,7 @@
 		D9D8D42825453ACF00364FCA /* Special.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42725453ACF00364FCA /* Special.swift */; };
 		D9D8D42B25453C6300364FCA /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42A25453C6300364FCA /* CategoryRow.swift */; };
 		D9D8D42E25453F6E00364FCA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8D42D25453F6E00364FCA /* HomeView.swift */; };
+		D9F705F225578ABA00246CC2 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F705F125578ABA00246CC2 /* ShopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		D9D8D42725453ACF00364FCA /* Special.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Special.swift; sourceTree = "<group>"; };
 		D9D8D42A25453C6300364FCA /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		D9D8D42D25453F6E00364FCA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D9F705F125578ABA00246CC2 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				538C05282380DE54006B97C5 /* OrderRowView.swift */,
 				D9D8D40B254524C500364FCA /* OrderView.swift */,
 				D93D43FA254D0FC700B39C83 /* TapiocaTeaView.swift */,
+				D9F705F125578ABA00246CC2 /* ShopView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */,
 				D9D8D4142545385C00364FCA /* Shop.swift in Sources */,
 				D9D8D42525453ABC00364FCA /* Data.swift in Sources */,
+				D9F705F225578ABA00246CC2 /* ShopView.swift in Sources */,
 				53BB726D22E1C33C00AA7546 /* ContentView.swift in Sources */,
 				D93D43FF254D1D4C00B39C83 /* ShopImage.swift in Sources */,
 				D9D8D42B25453C6300364FCA /* CategoryRow.swift in Sources */,

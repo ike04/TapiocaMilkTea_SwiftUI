@@ -9,8 +9,8 @@
 import SwiftUI
 
 fileprivate let gradient = Gradient(colors: [
-                            .white,
-                            Color.init(red: 0.9, green: 0.9, blue: 0.9)
+    .white,
+    Color.init(red: 0.9, green: 0.9, blue: 0.9)
 ])
 
 fileprivate let linear = LinearGradient(gradient: gradient,
